@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Mono&display=swap');
+
+
+.a:nth-child(2) {
+  list-style: circle;
+  color:red;
+}
+
+body {
+background-color: #FFFCE8
+;
+}
+ul {
+list-style-type: none;
+border-radius: 20px;
+margin: 30px;
+padding: 20px;
+overflow: hidden;
+background-color: #000;
+display: block;
+font-family: 'Roboto Mono', monospace;
+}
+
+li  {
+float: left;
+padding-right: 10px;
+}
+
+li a {
+display: block;
+border-radius: 25px;
+text-align: center;
+padding: 14px 50px;
+text-decoration: none;
+color: #1C7C54;
+}
+
+li a:hover:not(.active) {
+background-color: #A9FDAC;
+}
+
+.active, li a:hover {
+background-color: #A9FDAC
+;
+}
+
+.column {
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+
+#toc {
+border-radius: 30px;
+list-style-type: none;
+margin: 30px;
+padding-right: 20px;
+width: 280px;
+height: auto;
+background-color: #000;
+align: right;
+border-style: dashed;
+border-color: #8FB339
+;
+border-width: 2px;
+float: left;
+}
+
+.list2:visited {
+  color: #8FB339
+;
+}
+
+#para {
+float: center;
+color: #fff;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+color: white;
+background-color: #1C7C54;
+border-style: dotted;
+letter-spacing: 5px;
+
+}
+
+h2 {
+  color: #1C7C54;
+  padding-left: 40px;
+
+}
+#header {
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: #B50D0D;
+  width: 1420px;
+  color: #1C7C54;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+}
+
+
+#mainText{
+  text-decoration: none;
+  font-style: italic;
+  font-size: 50px;
+}
+
+
+#hlbar {
+
+	background-color:black;
+	width:800px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	box-shadow:black 0px 5px 10px;
+	text-align:center;
+	padding-top:40px;
+  padding-bottom:40px;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #A9FDAC;
+  color: #fff;
+
+	}
+
+#hltxt {
+float: center;
+color: #fff;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+#num {
+float: center;
+color: #1C7C54;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+  color:#A9FDAC;
+}
+
+.list1{
+  list-style: circle;
+  background-color: #FFFCE8;
+}
+
+.a {
+  list-style: circle;
+}
+
+h4{
+text-indent: 3em;
+}
+
+.yee {
+  border-radius: 20px;
+}
+
+hr.uwu {
+  border-top: 1px dashed #44CF6C
+}
+
+.yeehaw {
+   border-radius: 50%;
+   height: auto;
+   width: 200px;
+}
+
+h5{
+  color: #FFFCE8;
+  border-style: double;
+  background-color: black;
+  border-color: #1C7C54;
+  font-size: 20px;
+}
+
+#sourbar {
+  background-color:black;
+	width:1400px;
+	height:250px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	box-shadow:black 0px 5px 10px;
+	text-align:center;
+	padding-top:40px;
+  padding-bottom:40px;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #A9FDAC;
+  color: #fff;
+}
